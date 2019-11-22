@@ -1,0 +1,29 @@
+{
+  "name": "puppeteer-testing-environment",
+  "version": "1.0.0",
+  "description": "Puppeteer Testing Environment",
+  "main": "index.js",
+  "scripts": {
+    "test-automate": "karma start --single-run --browsers ChromeHeadless karma.conf.js",
+    "test-screenshot": "node index.js",
+    "test-pdf": "node document.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/puppeteer-testing-environment.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Testing"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/puppeteer-testing-environment/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/puppeteer-testing-environment#readme",
+  "devDependencies": {
+    "puppeteer": "^2.0.0",
+    "puppeteer-core": "^2.0.0"
+  }
+}
