@@ -23,6 +23,12 @@
   },
   "homepage": "https://github.com/mikeludemann/puppeteer-testing-environment#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
+    "karma": "^4.4.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^6.2.2",
     "puppeteer": "^2.0.0",
     "puppeteer-core": "^2.0.0"
   }
